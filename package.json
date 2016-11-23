@@ -1,6 +1,6 @@
 {
   "name": "babel-html-element",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTMLElement replacement for using Babel to make custom elements",
   "main": "index.js",
   "repository": {
