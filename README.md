@@ -9,7 +9,7 @@ npm install babel-html-element --save-dev
 ```javascript
 import HTMLElement from 'babel-html-element'
 
-export default class ToggleElement extends HTMLElement {
+export default class MyCustomElement extends HTMLElement {
   attributeChangedCallback(name, oldValue, newValue) {}
   connectedCallback() {}
   disconnectedCallback() {}
