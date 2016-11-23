@@ -1,12 +1,14 @@
-You will need something like this for transpiling custom elements to ES5.
+Because of Babel's implementation of [extends](https://github.com/babel/babel/issues/4480) and Custom Elements v1's [class requirement](https://github.com/w3c/webcomponents/issues/587), you will need something like this for transpiling custom elements to ES5.
 
-## Usage
+## Example
 
 ```
+npm install @webcomponents/custom-elements --save-dev
 npm install babel-html-element --save-dev
 ```
 
 ```javascript
+import '@webcomponents/custom-elements' // polyfill
 import HTMLElement from 'babel-html-element'
 
 export default class MyCustomElement extends HTMLElement {
@@ -20,11 +22,6 @@ export default class MyCustomElement extends HTMLElement {
 ```javascript
 customElements.define('my-element', MyCustomElement)
 ```
-
-## Relevant issues
-
-* https://github.com/babel/babel/issues/4480
-* https://github.com/w3c/webcomponents/issues/587#issuecomment-254126763
 
 ## See also
 
