@@ -1,3 +1,5 @@
+## Why?
+
 Custom Elements [require ES6 classes](https://github.com/w3c/webcomponents/issues/587) but Babel poorly implements [extends](https://github.com/babel/babel/issues/4480). You will need something like this for transpiling custom elements to ES5.
 
 ## Example
