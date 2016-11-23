@@ -11,7 +11,7 @@ npm install babel-html-element --save-dev
 ```javascript
 import HTMLElement from 'babel-html-element'
 
-export default class MyCustomElement extends HTMLElement {
+class MyCustomElement extends HTMLElement {
   static get observedAttributes() { return [] }
   attributeChangedCallback(name, oldValue, newValue) {}
   connectedCallback() {}
