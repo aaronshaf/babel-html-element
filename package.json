@@ -1,0 +1,16 @@
+{
+  "name": "babel-html-element",
+  "version": "1.0.0",
+  "description": "HTMLElement replacement for using Babel to make custom elements",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronshaf/babel-html-element.git"
+  },
+  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronshaf/babel-html-element/issues"
+  },
+  "homepage": "https://github.com/aaronshaf/babel-html-element#readme"
+}
