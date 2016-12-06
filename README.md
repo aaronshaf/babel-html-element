@@ -1,1 +1,1 @@
-Use [babel-plugin-transform-builtin-extend](https://github.com/loganfsmyth/babel-plugin-transform-builtin-extend) instead
+Use [create-element-class](https://github.com/aaronshaf/create-element-class) instead.
